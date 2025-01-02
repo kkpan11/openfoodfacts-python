@@ -1,5 +1,129 @@
 # Changelog
 
+## [2.5.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.4.0...v2.5.0) (2024-12-12)
+
+
+### Features
+
+* add `create_brand_taxonomy_mapping` function ([#306](https://github.com/openfoodfacts/openfoodfacts-python/issues/306)) ([f62b74d](https://github.com/openfoodfacts/openfoodfacts-python/commit/f62b74d822b3c4e340079428262f5b32fb770443))
+* add `Flavor.from_product_type` method ([#308](https://github.com/openfoodfacts/openfoodfacts-python/issues/308)) ([1cda84e](https://github.com/openfoodfacts/openfoodfacts-python/commit/1cda84e8a04c0e07579a76ab901861980c23c657))
+
+## [2.4.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.3.4...v2.4.0) (2024-12-11)
+
+
+### Features
+
+* add UpdateListener class ([#304](https://github.com/openfoodfacts/openfoodfacts-python/issues/304)) ([56362ac](https://github.com/openfoodfacts/openfoodfacts-python/commit/56362ac1503c7534224d831bda8e3b7966f1f83a))
+
+## [2.3.4](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.3.3...v2.3.4) (2024-12-10)
+
+
+### Bug Fixes
+
+* fix wrong scale_x and scale_y for object detection models ([#302](https://github.com/openfoodfacts/openfoodfacts-python/issues/302)) ([8558d6d](https://github.com/openfoodfacts/openfoodfacts-python/commit/8558d6dc9a8fdeafeaec391350f35fa8b1350981))
+
+## [2.3.3](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.3.2...v2.3.3) (2024-12-10)
+
+
+### Bug Fixes
+
+* use headless version of OpenCV ([#300](https://github.com/openfoodfacts/openfoodfacts-python/issues/300)) ([7c2fe0a](https://github.com/openfoodfacts/openfoodfacts-python/commit/7c2fe0a53c46023c280d8913c5d3a2f656e41483))
+
+## [2.3.2](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.3.1...v2.3.2) (2024-12-10)
+
+
+### Bug Fixes
+
+* relax constraint on Pillow dep ([#298](https://github.com/openfoodfacts/openfoodfacts-python/issues/298)) ([7bf368c](https://github.com/openfoodfacts/openfoodfacts-python/commit/7bf368cfcd403d5578e9bd4af501338dc2e97947))
+
+## [2.3.1](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.3.0...v2.3.1) (2024-12-10)
+
+
+### Bug Fixes
+
+* fix extra dependency specification ([#296](https://github.com/openfoodfacts/openfoodfacts-python/issues/296)) ([90e06b6](https://github.com/openfoodfacts/openfoodfacts-python/commit/90e06b68ba872cf5668f2a93a9ecdc8fa798f6ba))
+
+## [2.3.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.2.0...v2.3.0) (2024-12-09)
+
+
+### Features
+
+* add new openfoodfacts.ml module ([#293](https://github.com/openfoodfacts/openfoodfacts-python/issues/293)) ([27659fe](https://github.com/openfoodfacts/openfoodfacts-python/commit/27659fe2788c4273b93945790dcbe4824e3e5f4b))
+
+
+### Dependencies
+
+* relax dependency constrains ([#295](https://github.com/openfoodfacts/openfoodfacts-python/issues/295)) ([4456195](https://github.com/openfoodfacts/openfoodfacts-python/commit/44561954fe744368eb417797037afabaa90fd575))
+* relax dependency constraints ([4456195](https://github.com/openfoodfacts/openfoodfacts-python/commit/44561954fe744368eb417797037afabaa90fd575))
+
+## [2.2.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.1.0...v2.2.0) (2024-11-06)
+
+
+### Features
+
+* add map_to_canonical_id function ([#287](https://github.com/openfoodfacts/openfoodfacts-python/issues/287)) ([cde7683](https://github.com/openfoodfacts/openfoodfacts-python/commit/cde7683aa7376b17ddc621a0a99efdcf94bbcf96))
+
+## [2.1.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v2.0.0...v2.1.0) (2024-11-06)
+
+
+### Features
+
+* add ingredient analysis endpoint ([#285](https://github.com/openfoodfacts/openfoodfacts-python/issues/285)) ([10c42d2](https://github.com/openfoodfacts/openfoodfacts-python/commit/10c42d20e6cd6651eab597c00d200e0f00542580))
+
+## [2.0.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v1.1.5...v2.0.0) (2024-11-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* fix should_download_file function ([#284](https://github.com/openfoodfacts/openfoodfacts-python/issues/284))
+
+### Features
+
+* add support for downloading obsolete product dump in ProductDataset ([1c26936](https://github.com/openfoodfacts/openfoodfacts-python/commit/1c2693681223968ef222d2bf1de60da6cb6c1468))
+
+
+### Bug Fixes
+
+* correct path separator issue in extract_source_from_url function for Windows compatibility ([#280](https://github.com/openfoodfacts/openfoodfacts-python/issues/280)) ([385fbdb](https://github.com/openfoodfacts/openfoodfacts-python/commit/385fbdb9c2e27751c6494edead38b153103ce507))
+* fix should_download_file function ([#284](https://github.com/openfoodfacts/openfoodfacts-python/issues/284)) ([eb77a8c](https://github.com/openfoodfacts/openfoodfacts-python/commit/eb77a8ca5b873b28f51442987f8eb8c6f02b1f41))
+
+
+### Documentation
+
+* add missing changelog for [#223](https://github.com/openfoodfacts/openfoodfacts-python/issues/223) ([#282](https://github.com/openfoodfacts/openfoodfacts-python/issues/282)) ([b1134cc](https://github.com/openfoodfacts/openfoodfacts-python/commit/b1134cc1799029b794bb92687b126b7420bbb5cf))
+
+## [1.1.5](https://github.com/openfoodfacts/openfoodfacts-python/compare/v1.1.4...v1.1.5) (2024-10-14)
+
+
+### Bug Fixes
+
+* fix barcode splitting bug for image URL generation ([7250afb](https://github.com/openfoodfacts/openfoodfacts-python/commit/7250afb203fc9fc9d80315e0681f604e32a6b193))
+
+## [1.1.4](https://github.com/openfoodfacts/openfoodfacts-python/compare/v1.1.3...v1.1.4) (2024-10-08)
+
+
+### Bug Fixes
+
+* add new functions related to barcodes ([6faadc1](https://github.com/openfoodfacts/openfoodfacts-python/commit/6faadc1ea00b9ade6dfad50ba9cd5c261a4dcf8a))
+* increase csv field_size_limit to accommodate large fields ([94be4d3](https://github.com/openfoodfacts/openfoodfacts-python/commit/94be4d3cda2adf2967062cfedc289337c5e99842))
+* make RedisUpdate.product_type mandatory ([3cb66b1](https://github.com/openfoodfacts/openfoodfacts-python/commit/3cb66b1971b92514df9c965a2b9f9e7b51e5053f))
+
+## [1.1.3](https://github.com/openfoodfacts/openfoodfacts-python/compare/v1.1.2...v1.1.3) (2024-10-04)
+
+
+### Bug Fixes
+
+* don't assume Pillow is available ([fd2f8f2](https://github.com/openfoodfacts/openfoodfacts-python/commit/fd2f8f2faad1f670e316374924cf42eed8d4fab0))
+
+## [1.1.2](https://github.com/openfoodfacts/openfoodfacts-python/compare/v1.1.1...v1.1.2) (2024-10-04)
+
+
+### Bug Fixes
+
+* improve ProductDataset class ([c777d0f](https://github.com/openfoodfacts/openfoodfacts-python/commit/c777d0f383e5b423b85e7853080ef383921844c2))
+* only add HTTP auth headers when it's needed ([5c81025](https://github.com/openfoodfacts/openfoodfacts-python/commit/5c8102598d352f025298b41ff960d1ea1e87c6f4))
+* use new barcode normalization ([b49b362](https://github.com/openfoodfacts/openfoodfacts-python/commit/b49b362f5fcbc422aef724688d7d4622b2a993fc))
+
 ## [1.1.1](https://github.com/openfoodfacts/openfoodfacts-python/compare/v1.1.0...v1.1.1) (2024-07-18)
 
 
@@ -50,6 +174,7 @@
 
 ### Features
 
+* allow fetching other datasets (obf, opff, opf) ([#223](https://github.com/openfoodfacts/openfoodfacts-python/pull/223))
 * add download_image function ([#243](https://github.com/openfoodfacts/openfoodfacts-python/issues/243)) ([265f10b](https://github.com/openfoodfacts/openfoodfacts-python/commit/265f10bfa9047c48874255fbc66d9bab32fa61c5))
 
 ## [0.3.0](https://github.com/openfoodfacts/openfoodfacts-python/compare/v0.2.1...v0.3.0) (2024-04-18)
